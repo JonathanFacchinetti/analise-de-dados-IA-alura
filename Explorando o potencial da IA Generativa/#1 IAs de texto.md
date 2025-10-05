@@ -4,7 +4,7 @@
 
 Um **Large Language Model (LLM)**, ou Modelo de Linguagem de Grande Porte, é um tipo avançado de inteligência artificial projetado para compreender, gerar e interagir com a linguagem humana.  
 Ele é treinado com um volume massivo de dados textuais, como livros, artigos, websites e diálogos, o que lhe permite reconhecer padrões, contextos e nuances da comunicação.
-
+ 
 Esses modelos são a tecnologia fundamental por trás de ferramentas de IA generativa conhecidas, como **ChatGPT, Claude, Gemini, LLaMA** e **Mistral**.
 
 ---
@@ -234,3 +234,4 @@ O LLM analisará o conteúdo e entregará um resumo conciso, destacando pontos p
 Essa diferença destaca que a escolha do modelo ideal depende da tarefa.
 
 ---
+
