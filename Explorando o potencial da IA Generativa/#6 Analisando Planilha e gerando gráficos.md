@@ -9,13 +9,13 @@ Se não for possível, você pode pedir as instruções para gerar esse gráfico
 
 ---
 
-**Resolução da atividade:**  
+## Resolução da atividade:
 Inicialmente ao importar o arquivo para o ChatGPT e Google AI Studio ocorreu erro básico: o arquivo usa vírgula (`,`) como separador decimal e também como delimitador de coluna, o que confunde o Excel e o Pandas.
 
 - O Excel lê tudo como uma única coluna (A).  
 - O Pandas entende parcialmente, mas gera colunas quebradas e linhas extras.
 
-Foi solicitado para o ChatGPT realizar a correção e também as seguintes análises:
+Foi solicitado para o ChatGPT realizar a correção. Posteriormente o ChatGPT e Google AI Studio realizaram as seguintes análises:
 
 ### 1. Análises de desempenho individual
 - Calcular a média de cada aluno → preencher a coluna “Nota final”.
@@ -30,17 +30,11 @@ Foi solicitado para o ChatGPT realizar a correção e também as seguintes anál
 - Provas com melhor e pior desempenho médio.
 
 ---
+# Resolução e comparativo entre IA
 
-## Resolução e comparativo entre IA
+## ChatGPT
 
-### **Google AI Studio**
-
-**Melhor aluno:** Marcelo Barbosa — média **7,8**  
-**Pior aluno:** Carla Cristina Castro — média **3,05**
-
----
-
-### **Top 5 alunos (ranking por média)**
+### Top 5 alunos (ranking por média)
 | Posição | Aluno                 | Média Final |
 | -------- | --------------------- | ------------ |
 | 1 | Marcelo Barbosa | **7,80** |
@@ -49,9 +43,10 @@ Foi solicitado para o ChatGPT realizar a correção e também as seguintes anál
 | 4 | Lucas Gabriel Ribeiro | **7,05** |
 | 5 | Leticia Costa | **7,02** |
 
+**Melhor aluno:** Marcelo Barbosa — média **7,8**  
 ---
 
-### **Alunos abaixo da média mínima (6,0)**
+### Alunos abaixo da média mínima (6,0)
 | Aluno                 | Nota Final |
 | --------------------- | ---------- |
 | Mariana Pereira       | 4,28       |
@@ -62,9 +57,11 @@ Foi solicitado para o ChatGPT realizar a correção e também as seguintes anál
 | Marcos Vinicius Lima  | 5,72       |
 | Carla Cristina Castro | 3,05       |
 
+**Pior aluno:** Carla Cristina Castro — média **3,05**
+
 ---
 
-### **Médias gerais da turma**
+### Médias gerais da turma
 | Prova   | Média |
 | -------- | ------ |
 | Prova 1 | **6,44** |
@@ -76,7 +73,7 @@ Foi solicitado para o ChatGPT realizar a correção e também as seguintes anál
 
 ---
 
-### **Desvio padrão (variabilidade das notas)**
+### Desvio padrão (variabilidade das notas)
 | Prova   | Desvio Padrão |
 | -------- | ------------- |
 | Prova 1 | 2,5 |
@@ -88,16 +85,14 @@ Foi solicitado para o ChatGPT realizar a correção e também as seguintes anál
 - **Prova 2** foi a mais difícil, com menor média (4,71) e maior dispersão entre alunos.  
 - A média geral (**6,01**) indica desempenho mediano da turma.  
 - A **Prova 3** teve o melhor desempenho médio e consistência.  
-
 ---
 
-### **Resumo final**
+### Resumo final
 - **Melhor desempenho médio:** Prova 3 (Média: **6,59**)  
 - **Pior desempenho médio:** Prova 2 (Média: **4,71**)  
 - A turma apresentou **nível de desempenho razoável**, mas com **dificuldades específicas na Prova 2**.
 
-
-**Google AI Studio**
+### Google AI Studio
 
 # Análise de Desempenho dos Alunos
 
@@ -183,7 +178,6 @@ Rafaela Santos (6.2) ficou no limite superior e é considerada acima da média m
 | Prova 2 | **4.71** |
 | Prova 3 | **6.59** |
 | Prova 4 | **6.03** |
-
 **Média geral da turma (notas finais):** **6.01**
 
 ---
@@ -205,7 +199,6 @@ Rafaela Santos (6.2) ficou no limite superior e é considerada acima da média m
 | Prova 2 | ~2.9 | Alta variabilidade |
 | Prova 3 | ~2.1 | Mais consistente |
 | Prova 4 | ~2.8 | Alta variabilidade |
-
 ---
 
 ### Resumo
