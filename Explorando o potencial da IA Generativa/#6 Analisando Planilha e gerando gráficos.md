@@ -9,7 +9,7 @@ Se não for possível, você pode pedir as instruções para gerar esse gráfico
 
 ---
 
-## Resolução da atividade:
+# Resolução da atividade:
 Inicialmente ao importar o arquivo para o ChatGPT e Google AI Studio ocorreu erro básico: o arquivo usa vírgula (`,`) como separador decimal e também como delimitador de coluna, o que confunde o Excel e o Pandas.
 
 - O Excel lê tudo como uma única coluna (A).  
@@ -29,10 +29,7 @@ Foi solicitado para o ChatGPT realizar a correção. Posteriormente o ChatGPT e 
 - Desvio padrão / variabilidade das notas por prova (ver consistência).  
 - Provas com melhor e pior desempenho médio.
 
----
-# Resolução e comparativo entre IA
-
-## ChatGPT
+## **ChatGPT:**
 
 ### Top 5 alunos (ranking por média)
 | Posição | Aluno                 | Média Final |
@@ -44,6 +41,7 @@ Foi solicitado para o ChatGPT realizar a correção. Posteriormente o ChatGPT e 
 | 5 | Leticia Costa | **7,02** |
 
 **Melhor aluno:** Marcelo Barbosa — média **7,8**  
+
 ---
 
 ### Alunos abaixo da média mínima (6,0)
@@ -85,18 +83,14 @@ Foi solicitado para o ChatGPT realizar a correção. Posteriormente o ChatGPT e 
 - **Prova 2** foi a mais difícil, com menor média (4,71) e maior dispersão entre alunos.  
 - A média geral (**6,01**) indica desempenho mediano da turma.  
 - A **Prova 3** teve o melhor desempenho médio e consistência.  
----
-
 ### Resumo final
+
 - **Melhor desempenho médio:** Prova 3 (Média: **6,59**)  
 - **Pior desempenho médio:** Prova 2 (Média: **4,71**)  
+
 - A turma apresentou **nível de desempenho razoável**, mas com **dificuldades específicas na Prova 2**.
 
-### Google AI Studio
-
-# Análise de Desempenho dos Alunos
-
-## 1. Cálculos e Identificação
+## **Google AI Studio:**
 
 ### Média de cada aluno (Nota Final)
 
@@ -128,7 +122,7 @@ Foi solicitado para o ChatGPT realizar a correção. Posteriormente o ChatGPT e 
 
 ---
 
-## 2. Classificação por Desempenho (Ranking)
+### 2. Classificação por Desempenho (Ranking)
 
 1. Marcelo Barbosa (7.8)  
 2. Maria Eduarda Farias (7.68)  
@@ -153,7 +147,7 @@ Foi solicitado para o ChatGPT realizar a correção. Posteriormente o ChatGPT e 
 
 ---
 
-## 3. Alunos Abaixo da Média Mínima (6.0)
+### 3. Alunos Abaixo da Média Mínima (6.0)
 
 **Abaixo de 6.0:**  
 - Mariana Pereira (4.28)  
@@ -169,7 +163,7 @@ Rafaela Santos (6.2) ficou no limite superior e é considerada acima da média m
 
 ---
 
-## 4. Análises Gerais da Turma
+### 4. Análises Gerais da Turma
 
 ### Média Geral por Prova
 | Prova | Média |
@@ -178,6 +172,7 @@ Rafaela Santos (6.2) ficou no limite superior e é considerada acima da média m
 | Prova 2 | **4.71** |
 | Prova 3 | **6.59** |
 | Prova 4 | **6.03** |
+
 **Média geral da turma (notas finais):** **6.01**
 
 ---
@@ -187,6 +182,7 @@ Rafaela Santos (6.2) ficou no limite superior e é considerada acima da média m
 - **Prova 1** e **Prova 3** apresentaram as maiores médias (6.44 e 6.59).  
 - **Prova 2** foi a mais difícil, com média 4.71.  
 - **Prova 4** teve desempenho intermediário (6.03).  
+
 - A média geral (6.01) indica desempenho mediano da turma.
 
 ---
